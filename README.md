@@ -1,2 +1,5 @@
 # Week-12-Worsheet
-skeleton of all classes, funcional requirement
+Lena Castillo, Maria Camila Gomez
+-Skeleton of all classes
+-Funcional requirement
+
