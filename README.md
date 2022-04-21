@@ -7,7 +7,7 @@
 
 Para nuestro requerimiento funcional implementamos un Login Form Menu, en este caso solo se valida que el usuario haya rellenado el campo,no se encuentre vacío y además, que sean solo números los datos ingresados. Sin embargo, el propósito de dicho menú es que teniendo una pequeña base de datos la misma valide que el código estudiantil digitado por el usuario sea válido, permitiendo al usuario pasar a otro menú. A su vez implentamos un botón para que el usuario pueda interactuar y devolverse.
 
-Pueden probar nuestro código descargando el archivo .rar que se encuentra en el repositorio, donde se encuentra la carpeta de las imágenes que se utilizaron y el código usado, que se desarrolló usando Tkinter, y luego corriéndolo en VS Core usando la extensión de Python.
+Pueden probar nuestro código descargando el archivo que se encuentra en el repositorio, donde se encuentra la carpeta de las imágenes que se utilizaron y el código usado, que se desarrolló usando Tkinter, y luego corriéndolo en VS Core usando la extensión de Python.
 A su vez también, podrían descargar el archivo de Python que se encuentra de manera individual y la carpeta llamada imágenes. 
 
 2. Esqueleto de clases
