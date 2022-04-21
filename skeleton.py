@@ -39,7 +39,7 @@ class Lugar:
    disponibles:int
   def hayDispo():bool
 
-class Estudiante:
+class Estudiante (Persona):
   def __init__(self):
    user:str
    password:str
@@ -51,7 +51,5 @@ class Persona:
   nombre:str
   apellido:str
   edad:int
-
-
 
 
