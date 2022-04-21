@@ -12,5 +12,5 @@ A su vez también, podrían descargar el archivo de Python que se encuentra de m
 
 -Esqueleto de clases
 
-Aquí se implementaron las clases que se van usar en Python, sin embargo, no hacen ninguna funcion aun.
+Aquí se implementaron las clases que se van usar en Python, sin embargo, no hacen ninguna función aún.
 
