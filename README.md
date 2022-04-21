@@ -14,3 +14,7 @@ A su vez también, podrían descargar el archivo de Python que se encuentra de m
 
 Aquí se implementaron las clases que se van usar en Python, sin embargo, no hacen ninguna función aún.
 
+3. Imagen UML
+
+[![VLHDRzim3-Btx-Ln0vj-Mj-Sh5-UZ6-Dh4m-H0i-G3kqk-VMYM4m-YG1-ODVMGRjltt-KRRb-AKin80-We-Fdwy-Hr5-S5v-O7rf-TQDnxy0-HM7-Ou-Uf-BBO.png](https://i.postimg.cc/fRb67mJ0/VLHDRzim3-Btx-Ln0vj-Mj-Sh5-UZ6-Dh4m-H0i-G3kqk-VMYM4m-YG1-ODVMGRjltt-KRRb-AKin80-We-Fdwy-Hr5-S5v-O7rf-TQDnxy0-HM7-Ou-Uf-BBO.png)](https://postimg.cc/LnrC2qkH)
+
