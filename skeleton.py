@@ -38,6 +38,12 @@ class Lugar:
    piso:int
    disponibles:int
   def hayDispo():bool
+    
+class Persona:
+ def __init__(self):
+  nombre:str
+  apellido:str
+  edad:int
 
 class Estudiante (Persona):
   def __init__(self):
@@ -46,10 +52,5 @@ class Estudiante (Persona):
    codEst:int
   def verificarLogin():bool
 
-class Persona:
- def __init__(self):
-  nombre:str
-  apellido:str
-  edad:int
 
 
