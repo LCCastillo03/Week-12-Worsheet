@@ -1,0 +1,73 @@
+@startuml
+left to right direction
+class PCExplorer {
++nombre: String
++disponibilidad(Lugares 1):bool
++disponibilidad(Lugares 1):int
++disponibilidad():int
++disponibilidad():bool
+}
+ 
+class Prestamo {
++fechaPrestamo:Date
++fechaDevolucion:Date
++horaPrestamo:Date
++horaDevolucion:Date
++ubicacion:Lugar
++codEst:int
++pcID:int
++prestar(est, pc):void
++devolver(est, pc):void
+}
+ 
+class Computador {
++ID:int
++cantidadPC():int
+}
+ 
+ 
+class Lugar {
++ubicacion:Lugares
++piso:int
++disponibles:int
++hayDispo():bool
+}
+ 
+class Estudiante {
+-user:String
+-password:String
+-codEst:int
++verificarLogin():bool
+}
+ 
+class Persona {
++nombre:String
++apellido:String
++edad:int
+}
+ 
+enum Lugares {
+CASA ESTUDIO
+BIBLIOTECA
+BLOQUE B
+BLOQUE C
+BLOQUE D
+BLOQUE G
+BLOQUE K
+}
+ 
+PCExplorer--> "0,*" Prestamo
+PCExplorer  --> "0,*" Estudiante
+Estudiante "1" <---> "0,1" Prestamo
+Persona  <|--  Estudiante
+Lugar "1" <----> "0,*" Prestamo
+Prestamo  --> "1" Computador
+PCExplorer --> "1,*" Computador
+ 
+note top of Estudiante : Estudiante hereda de la clase persona.\nDonde persona simula la Base de Datos de la Universidad.
+note top of Lugares : Lista de los sitios donde se pueden prestar computadores.
+note top of Computador : Encargada de indicarle a prestamos cual computador se presto
+class PCExplorer
+note left: disponibilidad puede devolver si hay computadores en el sitio y cuantos, o \nen general, si hay disponibles y cuanto
+ 
+@enduml
